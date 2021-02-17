@@ -1,0 +1,12 @@
+Autor: Ricardo R. Lecheta
+Editora: Novatec
+Ano: 2018
+
+Node.js faz chamadas assíncronas. Importantes quando há operações demoradas no algoritmo, tornando assim a execução mais rápida se considerarmos o contexto geral.
+
+Definição de operação síncrona: Quando uma operação executa completamente antes de passar o controle à seguinte, a execução é síncrona.
+
+Instalação: 
+NPM: gerenciador de pacote do node
+- Efetuar o download do programa pelo site oficial e depois instalar no computador local.
+- Para verificar a versão do programa : terminal > node --version ou npm -- version

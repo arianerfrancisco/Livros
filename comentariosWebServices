@@ -1,0 +1,43 @@
+Web Services: são utilizados como integração e comunicação de sistemas. Podendo um sistema chamar um outro -
+tais chamadas podem enviar e receber informações, os mais populares são XML e JSON. 
+Os web services permitem acessar os serviços de forma padronizada e independente da linguagem de programação utilizada. 
+Ex: Um web service em Node, pode ser consumido por qualquer linguagem como: Java, C#, etc... 
+
+GET: Sempre que é digitado uma URL no browser será um GET. Marcado por sua simplicidade, mas com limite de caracteres na URL de 2045.
+POST: Usado em formulários de login e cadastros para enviar informações ao servidor Web Servics que precisa salvar as informações -
+também costumam receber os dados via POST. O POST- não possui limites de caracteres, por isso pode ser utilizado para upload de arquivos. A descvantagem
+do POST é que é tecnicamente dificil implementar, pois os dados precisam ser enviados no corpo da requisição do protocolo HTTP.
+
+WebServices RESTful
+- O REST(Representation State Transfer) é uma técnica de desenvolvimento de web services fortemente baseada nos métodos de protocolo HTTP - GET, POST, PUT e DELETE.
+- O termo RESTful foi criado para indicar que determinado sistema ou serviço segue os princípios do REST.
+> GET: consulta
+> POST: inserção
+> PUT: atualização
+> DELETE: exclusão
+
+Outras características do REST
+
+> Cada requisição é independente da outra.
+> Tem um conjunto de operações padronizadas - GET, PUT, DELETE e POST.
+> Utilização de tipos de conteúdo (mime-type) para solicitar e retornar conteúdo. Ainda permite ao cliente que especifique 
+qual o formato do conteúdo que deseja receber.
+REST: conjunto de técnicas atreladas ao protocolo HTTP.
+Um web service é RESTfull se tiver sido construido com base nos conceitos de REST. Web services também são chamadas de APIs, portanto é comum ouvirmos que vamos receber uma API para acessar determinado serviço.
+
+Códigos de retorno HTTP: sempre que requisições são feitas, códigos numéricos são retornados como resposta. Código 200: ok e 500: erro.
+Ver mais em: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+
+Tipos de conteúdo (mime-type ou content-type): um web service REST pode definir o seu tipo de entrada e retorno, sendo o mais comum utilizar o JSON.
+
+Códigos > tipos de arquivos
+
+application/json = JSON
+application/xml = XML
+application/zip = ZIP
+application/pdf = PDF
+text/css = CSS
+text/html = HTML
+image/png = PNG
+image/jpeg = JPEG
+image/gif = GIF

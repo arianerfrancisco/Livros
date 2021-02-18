@@ -10,3 +10,7 @@ Instalação:
 NPM: gerenciador de pacote do node
 - Efetuar o download do programa pelo site oficial e depois instalar no computador local.
 - Para verificar a versão do programa : terminal > node --version ou npm -- version
+
+Node: para criar algum sistema web, por exemplo servidor HTTP ou TCP.
+HTTP: protocolo de comunicação utilizado para sistemas web que pode receber e enviar informações. Os dados são recebidos sempre em objeto
+chamado request e a resposta é smepre enviada por um objeto chamado de response.
